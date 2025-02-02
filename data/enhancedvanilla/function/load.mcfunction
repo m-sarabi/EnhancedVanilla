@@ -3,6 +3,7 @@ scoreboard objectives add ev.thirst_hidden dummy
 scoreboard objectives add ev.thirst dummy
 scoreboard objectives add ev.dehydration dummy
 scoreboard objectives add ev.jump minecraft.custom:minecraft.jump
+scoreboard objectives add ev.drink_rain dummy
 
 # load constants
 function enhancedvanilla:constants

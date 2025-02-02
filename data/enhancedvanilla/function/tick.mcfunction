@@ -1,2 +1,3 @@
 function enhancedvanilla:hunger/tick
 function enhancedvanilla:thirst/tick
+function enhancedvanilla:thirst/drink_rain
