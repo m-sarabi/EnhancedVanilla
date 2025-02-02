@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "milk": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:milk_bucket"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "milk"
+        ]
+    ],
+    "rewards": {
+        "function": "enhancedvanilla:thirst/hydrate_levels/hydrate_6"
+    }
+}

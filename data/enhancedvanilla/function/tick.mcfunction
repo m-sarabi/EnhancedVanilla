@@ -1,0 +1,2 @@
+function enhancedvanilla:hunger/tick
+function enhancedvanilla:thirst/tick

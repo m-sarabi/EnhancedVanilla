@@ -1,0 +1,47 @@
+{
+    "criteria": {
+        "honey": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:honey_bottle"
+                }
+            }
+        },
+        "carrot": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:carrot"
+                }
+            }
+        },
+        "golden_carrot": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:golden_carrot"
+                }
+            }
+        },
+        "potato": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:potato"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "carrot",
+            "golden_carrot",
+            "honey",
+            "potato"
+        ]
+    ],
+    "rewards": {
+        "function": "enhancedvanilla:thirst/hydrate_levels/hydrate_1"
+    }
+}

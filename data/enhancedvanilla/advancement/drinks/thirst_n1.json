@@ -1,0 +1,92 @@
+{
+    "criteria": {
+        "bread": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:bread"
+                }
+            }
+        },
+        "dried_kelp": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:dried_kelp"
+                }
+            }
+        },
+        "beef": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:beef"
+                }
+            }
+        },
+        "mutton": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:mutton"
+                }
+            }
+        },
+        "pork": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:porkchop"
+                }
+            }
+        },
+        "cod": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:cod"
+                }
+            }
+        },
+        "salmon": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:salmon"
+                }
+            }
+        },
+        "chicken": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:chicken"
+                }
+            }
+        },
+        "tropical_fish": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:tropical_fish"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bread",
+            "dried_kelp",
+            "beef",
+            "mutton",
+            "pork",
+            "cod",
+            "salmon",
+            "chicken",
+            "tropical_fish"
+        ]
+    ],
+    "rewards": {
+        "function": "enhancedvanilla:thirst/hydrate_levels/dehydrate_1"
+    }
+}

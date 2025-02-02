@@ -1,0 +1,47 @@
+{
+    "criteria": {
+        "beetroot_soup": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:beetroot_soup"
+                }
+            }
+        },
+        "mushroom_stew": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:mushroom_stew"
+                }
+            }
+        },
+        "rabbit_stew": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:rabbit_stew"
+                }
+            }
+        },
+        "suspicious_stew": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:suspicious_stew"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "beetroot_soup",
+            "mushroom_stew",
+            "rabbit_stew",
+            "suspicious_stew"
+        ]
+    ],
+    "rewards": {
+        "function": "enhancedvanilla:thirst/hydrate_levels/hydrate_8"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "cookie": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:cookie"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "cookie"
+        ]
+    ],
+    "rewards": {
+        "function": "enhancedvanilla:thirst/hydrate_levels/dehydrate_2"
+    }
+}

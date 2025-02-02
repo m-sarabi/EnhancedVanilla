@@ -1,0 +1,65 @@
+{
+    "criteria": {
+        "apple": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:apple"
+                }
+            }
+        },
+        "enchanted_golden_apple": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:enchanted_golden_apple"
+                }
+            }
+        },
+        "golden_apple": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:golden_apple"
+                }
+            }
+        },
+        "sweet_berry": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:sweet_berries"
+                }
+            }
+        },
+        "glow_berry": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:glow_berries"
+                }
+            }
+        },
+        "beetroot": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:beetroot"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "apple",
+            "enchanted_golden_apple",
+            "golden_apple",
+            "sweet_berry",
+            "glow_berry",
+            "beetroot"
+        ]
+    ],
+    "rewards": {
+        "function": "enhancedvanilla:thirst/hydrate_levels/hydrate_3"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "water_bottle": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:potion"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "water_bottle"
+        ]
+    ],
+    "rewards": {
+        "function": "enhancedvanilla:thirst/hydrate_levels/hydrate_10"
+    }
+}
