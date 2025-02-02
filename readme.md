@@ -9,6 +9,7 @@ Enhanced Vanilla is a Minecraft datapack that adds new features to the game in a
     - Players will lose one thirst bar every 2 minutes.
     - If a player is completely dehydrated, they will start to lose health, and finally die from dehydration.
     - Eating certain foods (such as melon slices and stews) will hydrate the player, while eating some foods (such as rotten flesh or poisonous potatoes) will dehydrate the player.
+    - When it is raining, players can look directly upward to slowly drink the rain water.
 - Hunger:
     - Players will passively lose hunger very slowly, even when standing still (from full saturation to empty stomach in roughly 2 Minecraft weeks)
 
