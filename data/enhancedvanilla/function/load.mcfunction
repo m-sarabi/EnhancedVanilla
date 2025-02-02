@@ -1,8 +1,8 @@
-scoreboard objectives add hunger_hidden dummy
-scoreboard objectives add thirst_hidden dummy
-scoreboard objectives add thirst dummy
-scoreboard objectives add dehydration dummy
-scoreboard objectives add jump minecraft.custom:minecraft.jump
+scoreboard objectives add ev_hunger_hidden dummy
+scoreboard objectives add ev_thirst_hidden dummy
+scoreboard objectives add ev_thirst dummy
+scoreboard objectives add ev_dehydration dummy
+scoreboard objectives add ev_jump minecraft.custom:minecraft.jump
 
 # load constants
 function enhancedvanilla:constants
