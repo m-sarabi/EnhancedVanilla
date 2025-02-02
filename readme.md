@@ -13,7 +13,7 @@ Enhanced Vanilla is a Minecraft datapack that adds new features to the game in a
     - Players will passively lose hunger very slowly, even when standing still (from full saturation to empty stomach in roughly 2 Minecraft weeks)
 
 ## Installation
-1. Download the datapack from the [releases](https://github.com/EnhancedVanilla/EnhancedVanilla/releases) page.
+1. Download the datapack.
 2. Put the datapack in your `datapacks` folder:
     - Singleplayer: `.minecraft\saves\<World Folder>\datapacks`
     - Multiplayer: `world\datapacks`
